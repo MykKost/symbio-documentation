@@ -120,7 +120,7 @@ The following user-defined attribute groups are available:
 
 4. By activating “Only for Viewer” this custom attribute will only be displayed for the viewers
 
-5. By activating “Available for reporting” the custom attribute will be analyzed in the estandard reports as well. If this is not activated, this attribute won´t be a part of the reporting
+5. By activating “Available for reporting” the custom attribute will be analyzed in the standard reports as well. If this is not activated, this attribute won´t be a part of the reporting
 
 6. By activating "Searchable" this attribute will be considered in the Symbio standard search. 
 
@@ -172,7 +172,7 @@ This is to configure a single line text attribute that allows to hidden entries 
 
 #### Add formattable multiline text attribute
 
-This is to add a multiline text attribute that allows HTML formating, similiar to the "Description" field.
+This is to add a multiline text attribute that allows HTML formatting, similar to the "Description" field.
 
 #### Add link attribute
 
