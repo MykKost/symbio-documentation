@@ -386,7 +386,7 @@ Maintain document export template settings:
 - Facet: Processes
 - Type: Sub process (SubProcessDiagram)
 - Languages: German, English
-- Template file path: seilect from the data tab the file "temlates - symbiodocument_processmanual_de_en.rtf"
+- Template file path: select from the data tab the file "templates - symbiodocument_processmanual_de_en.rtf"
 - Content flags: gives you the possibility to show additional evaluations or hide existing ones from the template. See following list for more informations
 
 | Content flag | Explanation |
