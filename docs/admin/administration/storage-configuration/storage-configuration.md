@@ -332,9 +332,9 @@ First, create a new Type of Release cycle setting in the list. Then, go to Detai
 
 For individual configuration, the following options are available:
 
-__Option 1: Valid from day span__
+__Option 1: Don’t set "Valid from"__
 
-Set the number of days after which the process finally has the state 'Valid' (after release). So the state changes from "Released" to "Valid". 
+In the release workflow, the automatic setting of the "Don’t set "Valid from"" date can be deactivated. Depending on the object type, this can be set individually in the admin area . 
 
 __Option 2: Prohibit direct release__
 
