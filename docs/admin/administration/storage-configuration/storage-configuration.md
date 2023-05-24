@@ -334,13 +334,17 @@ For individual configuration, the following options are available:
 
 __Option 1: Valid from day span__
 
-In the release workflow, the automatic setting of the "Don't set "Valid form" can be deactivated. 
+Set the number of days after which the process finally has the state "Valid" ( after release). So the state changes from "Released" to "Valid".
 
 __Option 2: Prohibit direct release__
 
+In the release workflow, the automatic setting of the “Validity start” date can be deactivated. Depending on the object type, this can be set individually in the admin area under “Set release cycle”. Thus, for example, the validity date is no longer automatically set to the current date (+ 14 days) for configured processes but can be entered manually if required.
+
+__Option 3: Prohibit direct release__
+
 Activate this checkbox if the workflow should be started in any case, even if the same User is entered as Responsible and Author. The state 'Released' will then never be selectable in the release dialogue.
 
-__Option 3: Approver users / Approver user groups__
+__Option 4: Approver users / Approver user groups__
 
 This functionality allows to add further single Approver users or Approver user groups to the release cycle. Furthermore, the state 'Ready for Approval' is added to the dialog window.
 
@@ -350,13 +354,13 @@ The new order of participants of the release cycle will then be: Author - QA (if
 
 Please note that this field Approver/Approver group is optional by default. In case it should be a mandatory field, this has to be set up via the Extended Configuration (in the 'Change' dialog).
 
-__Option 4: Quality Manager users / user groups__
+__Option 5: Quality Manager users / user groups__
 
 This functionality can be used to restrict the usage of single quality manager users and/or quality manager user groups in the release cycle. If disabled, the corresponding dialog views in detail content will be deactivated.
 
 NOTE: If you have maintained Approvers or Quality Managers before and set up the customizations, so that their maintenance is no longer possible, you are not able to see them any longer in any detail content or dialog!
 
-__Option 5: Approval count__
+__Option 6: Approval count__
 
 For both the Approver and Quality manager settings you are able to set the number of users that have to approve a process or objects before the next release cycle state can be reached. As soon as the number of approvals is reached, the tasks for the remaining members of this group are automatically closed. This is also visible in the lifecycle diagram of the element.
 
