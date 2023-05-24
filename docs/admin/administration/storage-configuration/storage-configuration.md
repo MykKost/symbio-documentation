@@ -336,7 +336,7 @@ __Option 1: Valid from day span__
 
 Set the number of days after which the process finally has the state "Valid" ( after release). So the state changes from "Released" to "Valid".
 
-__Option 2: Prohibit direct release__
+__Option 2: Don't set "Valid from"__
 
 In the release workflow, the automatic setting of the “Validity start” date can be deactivated. Depending on the object type, this can be set individually in the admin area under “Set release cycle”. Thus, for example, the validity date is no longer automatically set to the current date (+ 14 days) for configured processes but can be entered manually if required.
 
